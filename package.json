@@ -1,0 +1,29 @@
+{
+	"name": "SVM-Node-Structure",
+	"version": "1.0.0",
+	"private": false,
+	"scripts": {
+		"start": "node ./app.js",
+		"debug": "node --inspect-brk=9229 app.js"
+	},
+	"dependencies": {
+		"async": "^2.6.1",
+		"bluebird": "^3.5.1",
+		"compression": "^1.7.2",
+		"config": "^1.30.0",
+		"cookie-parser": "~1.4.3",
+		"cors": "^2.8.4",
+		"debug": "~2.6.9",
+		"ejs": "~2.5.7",
+		"express": "~4.16.0",
+		"express-bearer-token": "^2.1.1",
+		"http-errors": "~1.6.2",
+		"lodash": "^4.17.10",
+		"morgan": "~1.9.0",
+		"mysql2": "^1.5.3",
+		"response-format": "^1.0.4",
+		"sequelize": "^4.37.10",
+		"uuid-random": "^1.0.6",
+		"validator": "^10.3.0"
+	}
+}
