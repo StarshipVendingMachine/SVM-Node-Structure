@@ -1,7 +1,7 @@
 {
 	"name": "SVM_Node_Structure",
 	"version": "1.0.0",
-	"private": false,
+	"private": true,
 	"scripts": {
 		"start": "node ./app.js",
 		"debug": "node --inspect-brk=9229 app.js"
