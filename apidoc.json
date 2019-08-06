@@ -1,0 +1,11 @@
+{
+  "name": "PUFF-Project",
+  "version": "1.0.0",
+  "description": "PUFF API",
+  "title": "PUFF API Title",
+  "url": "http://www.pufflive.me",
+  "template": {
+    "withCompare": true,
+    "withGenerator": true
+  }
+}

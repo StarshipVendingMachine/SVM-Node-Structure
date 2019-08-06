@@ -1,3 +1,5 @@
+const userController = require('./user');
+
 module.exports = {
-	user: require('./user')
+  user: userController,
 };

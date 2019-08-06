@@ -9,6 +9,7 @@
 	"dependencies": {
 		"async": "^2.6.1",
 		"bluebird": "^3.5.1",
+		"body-parser": "^1.19.0",
 		"compression": "^1.7.2",
 		"config": "^1.30.0",
 		"cookie-parser": "~1.4.3",
@@ -25,5 +26,10 @@
 		"sequelize": "^4.37.10",
 		"uuid-random": "^1.0.6",
 		"validator": "^10.3.0"
+	},
+	"devDependencies": {
+		"eslint": "^5.16.0",
+		"eslint-config-airbnb-base": "^13.1.0",
+		"eslint-plugin-import": "^2.17.2"
 	}
 }
