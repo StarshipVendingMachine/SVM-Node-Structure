@@ -4,9 +4,12 @@ const express = require('express');
 
 const router = express.Router();
 
-router.get('/', (req, res) => {
+const userService = require('../services/user');
+
+router.get('/', async (req, res) => {
+  const rtn = await userService.getOne(1);
   res.json(
-    Format.success(null),
+    Format.success('success', rtn),
   );
 });
 
