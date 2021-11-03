@@ -25,7 +25,7 @@
 		"response-format": "^1.0.4",
 		"sequelize": "^4.37.10",
 		"uuid-random": "^1.0.6",
-		"validator": "^10.3.0"
+		"validator": "^13.7.0"
 	},
 	"devDependencies": {
 		"eslint": "^5.16.0",
