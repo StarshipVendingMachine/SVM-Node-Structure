@@ -7,7 +7,7 @@
 		"debug": "node --inspect-brk=9229 app.js"
 	},
 	"dependencies": {
-		"async": "^2.6.1",
+		"async": "^3.2.2",
 		"bluebird": "^3.5.1",
 		"body-parser": "^1.19.0",
 		"compression": "^1.7.2",
